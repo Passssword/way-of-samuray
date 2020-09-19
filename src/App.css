@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{background: #E1E5EE;}
 .App {
+  margin: 10px 10%;
   display: grid;
-  grid-template-areas: "grid_1 grid_1"  
-                       "grid_2 grid_3"  
-                       "grid_4 grid_4";
+  grid-template-columns: repeat(6, 1fr);
 }
