@@ -1,0 +1,45 @@
+.dialogsWrapper {
+	display: grid;
+	display: -webkit-grid;
+	flex-grow: 1;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 5px;
+	border-radius: 10px;
+	background: var(--color7);
+	overflow: hidden;
+}
+.dialogsListItems {
+	display: flex;
+	display: -webkit-flex;
+	background: var(--color9);
+	padding: 5px;
+	color: var(--color7);
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.dialogsContent {
+	grid-column: 2/7;
+	padding: 5px;
+}
+.sendingMessegePlace {
+	padding: 20px 0 0 0;
+}
+
+/* -------------------- */
+.dialogsMenu {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.dialogsMenu a{
+	text-decoration: none;
+	display: inline-block;
+	color: var(--color7);
+	font: /*italic*/ bold 130% serif;
+	transition: all .4s linear;
+}
+.dialogsMenu a:hover {
+	color: var(--color5);
+}

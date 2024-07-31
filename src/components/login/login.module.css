@@ -1,0 +1,18 @@
+.loginWrapper {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	width: 100%;
+/*	border-radius: 10px;*/
+	background: var(--color7);
+	padding: 25px;
+	overflow: hidden;
+}
+.loginForm {
+	border: 1px solid var(--color9);
+	padding: 25px;
+}
+.loginForm input {
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+}

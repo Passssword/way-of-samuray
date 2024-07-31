@@ -1,0 +1,20 @@
+
+/* Side Bar style`s */
+
+.contentTitle {
+	display: flex;
+	display: -webkit-flex;
+	flex-grow: 0;
+	background: var(--color1);
+	padding: 1px;
+	color: var(--color2);
+	text-align: center;
+	flex-direction: column;
+	border-radius: 10px;
+}
+.sideBar {
+	border-radius: 10px;
+	background: var(--color7);
+	padding: 10px;
+}
+.contactsOnline {}

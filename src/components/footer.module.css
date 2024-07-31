@@ -1,0 +1,21 @@
+.footer_wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-radius: 10px 10px 0px 0px;
+/*	border:1px solid var(--color1);*/
+background: var(--color1);
+	color: var(--color4);
+	font: /*italic bold*/ 130% "Forum";
+}
+.footer_title {
+	grid-column: 1/1;
+	padding: 30px;
+	color: var(--color4);
+}
+.footer_content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column: 2/2;
+	padding: 30px;
+	color: var(--color4);
+}
